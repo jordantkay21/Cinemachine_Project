@@ -6,7 +6,7 @@ public class Camera_Switch : MonoBehaviour
 {
 
     private GameObject _centerCam, _frontRightCam, _frontLeftCam;
-    // Start is called before the first frame update
+
     void Start()
     {
         _centerCam = GameObject.Find("Center");
